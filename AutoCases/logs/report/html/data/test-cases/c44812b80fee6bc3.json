@@ -1,0 +1,185 @@
+{
+  "uid" : "c44812b80fee6bc3",
+  "name" : "test_strLen",
+  "fullName" : "test.test_homework.Test_HomeWork#test_strLen",
+  "historyId" : "5871acfe2b1418f5e889f74651ac5db1",
+  "time" : {
+    "start" : 1637069689178,
+    "stop" : 1637069689185,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>> = <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>.strLen\n +  and   5 = int('5')",
+  "statusTrace" : "self = <test.test_homework.Test_HomeWork testMethod=test_strLen>\n\n    @allure.feature(\"字符串长度\")\n    def test_strLen(self):\n        for i in datas:\n>           assert mtool.strLen(i[0]) == int(i[1])\nE           AssertionError: assert 4 == 5\nE            +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>>('ddddd')\nE            +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>> = <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>.strLen\nE            +  and   5 = int('5')\n\ntest\\test_homework.py:22: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_HomeWork",
+    "time" : {
+      "start" : 1637069689070,
+      "stop" : 1637069689070,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>> = <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>.strLen\n +  and   5 = int('5')",
+    "statusTrace" : "self = <test.test_homework.Test_HomeWork testMethod=test_strLen>\n\n    @allure.feature(\"字符串长度\")\n    def test_strLen(self):\n        for i in datas:\n>           assert mtool.strLen(i[0]) == int(i[1])\nE           AssertionError: assert 4 == 5\nE            +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>>('ddddd')\nE            +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>> = <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>.strLen\nE            +  and   5 = int('5')\n\ntest\\test_homework.py:22: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8ebfda41f7f9dff0",
+      "name" : "stdout",
+      "source" : "8ebfda41f7f9dff0.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_HomeWork::0",
+    "time" : {
+      "start" : 1637069689302,
+      "stop" : 1637069689303,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "字符串长度"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_homework"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_HomeWork"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-58GH5J0"
+  }, {
+    "name" : "thread",
+    "value" : "19356-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_homework"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b1ac0eb54eed6cf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000017EB260B460>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000017EB260B460>> = <AutoCases.lib.tool.MyTool object at 0x0000017EB260B460>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637069447569,
+        "stop" : 1637069447573,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "6d186579e51ff613",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000002A2F6E2B490>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000002A2F6E2B490>> = <AutoCases.lib.tool.MyTool object at 0x000002A2F6E2B490>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637069336234,
+        "stop" : 1637069336236,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6cc679888c6af184",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000019C9C84B400>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000019C9C84B400>> = <AutoCases.lib.tool.MyTool object at 0x0000019C9C84B400>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637069190302,
+        "stop" : 1637069190304,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3273e544e3c1a048",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000002A4233AB460>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000002A4233AB460>> = <AutoCases.lib.tool.MyTool object at 0x000002A4233AB460>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637068940875,
+        "stop" : 1637068940877,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b81301bc136d4175",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000001CCE365C400>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000001CCE365C400>> = <AutoCases.lib.tool.MyTool object at 0x000001CCE365C400>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637068899314,
+        "stop" : 1637068899315,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1b8e4894c00a7690",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>> = <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637068655470,
+        "stop" : 1637068655471,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "92622f46702e1367",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000277BFD2FFD0>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000277BFD2FFD0>> = <AutoCases.lib.tool.MyTool object at 0x00000277BFD2FFD0>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637067694339,
+        "stop" : 1637067694344,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "43c3982aa973f11e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000002AA44CEFF40>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x000002AA44CEFF40>> = <AutoCases.lib.tool.MyTool object at 0x000002AA44CEFF40>.strLen\n +  and   5 = int('5')",
+      "time" : {
+        "start" : 1637067559384,
+        "stop" : 1637067559386,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c44812b80fee6bc3.json",
+  "parameterValues" : [ ]
+}

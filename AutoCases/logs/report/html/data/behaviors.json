@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "返回该日期的后一天日期",
+    "children" : [ {
+      "name" : "test_dayAdd1",
+      "uid" : "f309f311af781af0",
+      "parentUid" : "94e73cc7abb6d18f3d38dcab8abaf13e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637069689071,
+        "stop" : 1637069689072,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "94e73cc7abb6d18f3d38dcab8abaf13e"
+  }, {
+    "name" : "分数判断",
+    "children" : [ {
+      "name" : "test_num",
+      "uid" : "78d489b25128338d",
+      "parentUid" : "6ee98189a3bc0675db68f7ba2b007e20",
+      "status" : "failed",
+      "time" : {
+        "start" : 1637069689097,
+        "stop" : 1637069689098,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6ee98189a3bc0675db68f7ba2b007e20"
+  }, {
+    "name" : "字符串拼接",
+    "children" : [ {
+      "name" : "test_strAppend",
+      "uid" : "1e52a9e0a26a7e4a",
+      "parentUid" : "a84913ed31c74af49f0259f7fccef794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637069689150,
+        "stop" : 1637069689151,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a84913ed31c74af49f0259f7fccef794"
+  }, {
+    "name" : "字符串长度",
+    "children" : [ {
+      "name" : "test_strLen",
+      "uid" : "c44812b80fee6bc3",
+      "parentUid" : "6390a6db9ca4a0b1753bf154eacc3cb2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1637069689178,
+        "stop" : 1637069689185,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6390a6db9ca4a0b1753bf154eacc3cb2"
+  }, {
+    "name" : "字符串返回长度最长的",
+    "children" : [ {
+      "name" : "test_strMax",
+      "uid" : "3e03115d4321fc81",
+      "parentUid" : "cb3e0e7dc8e37d108e47b04574b9de7f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1637069689260,
+        "stop" : 1637069689274,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cb3e0e7dc8e37d108e47b04574b9de7f"
+  } ],
+  "name" : "behaviors"
+}

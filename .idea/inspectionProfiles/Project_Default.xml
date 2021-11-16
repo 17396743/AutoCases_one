@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="demo1.matplotlib" />
+          <option value="demo1.maptplotlib" />
+          <option value="maptplotlib" />
+          <option value="this.p" />
+          <option value="demo_four.p" />
+          <option value="demo_four.i" />
+          <option value="demo_five.*" />
+          <option value="httplib" />
+          <option value="mysql_db.mysql" />
+          <option value="htmltest001.suite" />
+          <option value="StringIO" />
+          <option value="readxml.test_calc.readCSV" />
+          <option value="code1.main.demo" />
+          <option value="code1.test.test_all.testCalc" />
+          <option value="code1.test.test_all.testDemo" />
+          <option value="code1.read.test_calc.readCsv" />
+          <option value="xml.dom" />
+          <option value="code1.readCsv" />
+          <option value="code1.read.readxml.minidom" />
+          <option value="code1.xml" />
+          <option value="code1.test.test_all.HTMLTestRunner" />
+          <option value="read.readCsv" />
+          <option value="a2.allure" />
+          <option value="allure" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '不及格' == '及格'\n  - 及格\n  + 不及格\n  ? +",
+      "children" : [ {
+        "name" : "test_num",
+        "uid" : "78d489b25128338d",
+        "parentUid" : "182a2f19bb5195580de9c6fd4e470ac4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637069689097,
+          "stop" : 1637069689098,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "182a2f19bb5195580de9c6fd4e470ac4"
+    }, {
+      "name" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>> = <AutoCases.lib.tool.MyTool object at 0x0000013A50926D30>.strLen\n +  and   5 = int('5')",
+      "children" : [ {
+        "name" : "test_strLen",
+        "uid" : "c44812b80fee6bc3",
+        "parentUid" : "849b6739671800035043717af617251f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637069689178,
+          "stop" : 1637069689185,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "849b6739671800035043717af617251f"
+    }, {
+      "name" : "AssertionError: assert 'TAT' == 'QAQ'\n  - QAQ\n  + TAT",
+      "children" : [ {
+        "name" : "test_strMax",
+        "uid" : "3e03115d4321fc81",
+        "parentUid" : "5d8b1c5cace08cfda5cbc16502f5f7d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637069689260,
+          "stop" : 1637069689274,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d8b1c5cace08cfda5cbc16502f5f7d7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

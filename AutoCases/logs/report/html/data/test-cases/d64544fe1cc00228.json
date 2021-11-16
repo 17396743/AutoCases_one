@@ -1,0 +1,104 @@
+{
+  "uid" : "d64544fe1cc00228",
+  "name" : "test_strAppend",
+  "fullName" : "test.test_homework.Test_HomeWork#test_strAppend",
+  "historyId" : "90f06365d2d46d9147005095083c937f",
+  "time" : {
+    "start" : 1637068940854,
+    "stop" : 1637068940856,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'fghjk-asdfg' == 'asdfg-fghjk'\n  - asdfg-fghjk\n  + fghjk-asdfg",
+  "statusTrace" : "self = <test.test_homework.Test_HomeWork testMethod=test_strAppend>\n\n    def test_strAppend(self):\n        for i in datas:\n>           assert mtool.strAppend(i[2],i[3]) == i[4]\nE           AssertionError: assert 'fghjk-asdfg' == 'asdfg-fghjk'\nE             - asdfg-fghjk\nE             + fghjk-asdfg\n\ntest\\test_homework.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_HomeWork",
+    "time" : {
+      "start" : 1637068940792,
+      "stop" : 1637068940793,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'fghjk-asdfg' == 'asdfg-fghjk'\n  - asdfg-fghjk\n  + fghjk-asdfg",
+    "statusTrace" : "self = <test.test_homework.Test_HomeWork testMethod=test_strAppend>\n\n    def test_strAppend(self):\n        for i in datas:\n>           assert mtool.strAppend(i[2],i[3]) == i[4]\nE           AssertionError: assert 'fghjk-asdfg' == 'asdfg-fghjk'\nE             - asdfg-fghjk\nE             + fghjk-asdfg\n\ntest\\test_homework.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4a6b0169769a82b",
+      "name" : "stdout",
+      "source" : "d4a6b0169769a82b.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_HomeWork::0",
+    "time" : {
+      "start" : 1637068940906,
+      "stop" : 1637068940906,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_homework"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_HomeWork"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-58GH5J0"
+  }, {
+    "name" : "thread",
+    "value" : "20796-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_homework"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d64544fe1cc00228.json",
+  "parameterValues" : [ ]
+}

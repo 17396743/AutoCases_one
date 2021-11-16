@@ -1,0 +1,104 @@
+{
+  "uid" : "1b8e4894c00a7690",
+  "name" : "test_strLen",
+  "fullName" : "test.test_homework.Test_HomeWork#test_strLen",
+  "historyId" : "5871acfe2b1418f5e889f74651ac5db1",
+  "time" : {
+    "start" : 1637068655470,
+    "stop" : 1637068655471,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>> = <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>.strLen\n +  and   5 = int('5')",
+  "statusTrace" : "self = <test.test_homework.Test_HomeWork testMethod=test_strLen>\n\n    def test_strLen(self):\n        for i in datas:\n>           assert mtool.strLen(i[0]) == int(i[1])\nE           AssertionError: assert 4 == 5\nE            +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>>('ddddd')\nE            +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>> = <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>.strLen\nE            +  and   5 = int('5')\n\ntest\\test_homework.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_HomeWork",
+    "time" : {
+      "start" : 1637068655379,
+      "stop" : 1637068655381,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>>('ddddd')\n +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>> = <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>.strLen\n +  and   5 = int('5')",
+    "statusTrace" : "self = <test.test_homework.Test_HomeWork testMethod=test_strLen>\n\n    def test_strLen(self):\n        for i in datas:\n>           assert mtool.strLen(i[0]) == int(i[1])\nE           AssertionError: assert 4 == 5\nE            +  where 4 = <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>>('ddddd')\nE            +    where <bound method MyTool.strLen of <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>> = <AutoCases.lib.tool.MyTool object at 0x00000259A20526A0>.strLen\nE            +  and   5 = int('5')\n\ntest\\test_homework.py:21: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2384eb2755d73e66",
+      "name" : "stdout",
+      "source" : "2384eb2755d73e66.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_HomeWork::0",
+    "time" : {
+      "start" : 1637068655500,
+      "stop" : 1637068655500,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_homework"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_HomeWork"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-58GH5J0"
+  }, {
+    "name" : "thread",
+    "value" : "17620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_homework"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b8e4894c00a7690.json",
+  "parameterValues" : [ ]
+}
